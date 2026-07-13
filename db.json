@@ -1,0 +1,24 @@
+{
+  "items": [
+    { "id": 1, "name": "Casque antibruit", "category": "Électronique", "quantity": 4, "threshold": 5 },
+    { "id": 2, "name": "Chaise de bureau", "category": "Mobilier", "quantity": 12, "threshold": 3 },
+    { "id": 3, "name": "Câble USB-C", "category": "Électronique", "quantity": 2, "threshold": 10 },
+    { "id": 4, "name": "Bureau réglable", "category": "Mobilier", "quantity": 6, "threshold": 2 },
+    { "id": 5, "name": "Écran 24 pouces", "category": "Électronique", "quantity": 8, "threshold": 4 },
+    { "id": 6, "name": "Classeur métallique", "category": "Rangement", "quantity": 15, "threshold": 5 },
+    { "id": 7, "name": "Souris sans fil", "category": "Électronique", "quantity": 3, "threshold": 6 },
+    { "id": 8, "name": "Lampe de bureau", "category": "Mobilier", "quantity": 9, "threshold": 3 },
+    { "id": 9, "name": "Ramette papier A4", "category": "Fournitures", "quantity": 20, "threshold": 10 },
+    { "id": 10, "name": "Stylo bille (boîte)", "category": "Fournitures", "quantity": 1, "threshold": 5 },
+    { "id": 11, "name": "Onduleur", "category": "Électronique", "quantity": 5, "threshold": 2 },
+    { "id": 12, "name": "Chariot de rangement", "category": "Rangement", "quantity": 3, "threshold": 4 },
+    { "id": 13, "name": "Clavier mécanique", "category": "Électronique", "quantity": 7, "threshold": 3 },
+    { "id": 14, "name": "Tapis de souris", "category": "Fournitures", "quantity": 14, "threshold": 5 },
+    { "id": 15, "name": "Étagère murale", "category": "Mobilier", "quantity": 2, "threshold": 3 },
+    { "id": 16, "name": "Câble HDMI", "category": "Électronique", "quantity": 10, "threshold": 5 },
+    { "id": 17, "name": "Boîte de trombones", "category": "Fournitures", "quantity": 25, "threshold": 8 },
+    { "id": 18, "name": "Webcam HD", "category": "Électronique", "quantity": 4, "threshold": 4 },
+    { "id": 19, "name": "Support pour écran", "category": "Mobilier", "quantity": 6, "threshold": 2 },
+    { "id": 20, "name": "Casier à dossiers", "category": "Rangement", "quantity": 1, "threshold": 3 }
+  ]
+}
