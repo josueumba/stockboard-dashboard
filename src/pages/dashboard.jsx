@@ -1,5 +1,6 @@
 import Card from "../components/card"
 import Header from "../components/header"
+import Modal from "../components/modal"
 import Table from "../components/table"
 
 function Dashboard() {
@@ -28,12 +29,14 @@ function Dashboard() {
                     <option>Ok</option>
                 </select>
 
-                <button className="btn btn-primary d-flex align-items-center gap-2 py-2 px-3">
+                <button className="btn btn-primary d-flex align-items-center gap-2 py-2 px-3" data-bs-toggle="modal" data-bs-target="#addProductModal">
                     <i className="bi bi-plus text-white"></i> Add a product
                 </button>
             </div>
 
             <Table />
+
+            <Modal />
         </div>
     )
 }
