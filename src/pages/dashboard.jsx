@@ -1,7 +1,8 @@
-import Card from "../components/card"
-import Header from "../components/header"
-import Modal from "../components/modal"
-import Table from "../components/table"
+import Card from "../components/Card"
+import EmptyState from "../components/EmptyState"
+import Header from "../components/Header"
+import Modal from "../components/Modal"
+import Table from "../components/Table"
 
 function Dashboard() {
     return (
@@ -35,6 +36,12 @@ function Dashboard() {
             </div>
 
             <Table />
+
+            <EmptyState title="No products found" description="Add your first product to start managing your inventory" icon="bi bi-box-seam fs-1 text-primary">
+                <button className="btn btn-primary d-flex align-items-center gap-2 py-2 px-3" data-bs-toggle="modal" data-bs-target="#addProductModal">
+                    <i className="bi bi-plus text-white"></i> Add a product
+                </button>
+            </EmptyState>
 
             <Modal />
         </div>
